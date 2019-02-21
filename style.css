@@ -1,0 +1,33 @@
+*{text-align: center}
+body {
+    background-image: url(https://www.muralswallpaper.com/app/uploads/watercolour-polka-dot-plain.jpg)
+}
+
+#bluetext {
+    color: aquamarine;
+    font-family: "Arial";
+}
+
+.links {
+    color: lightpink;
+    font-family: "Arial";
+}
+
+.read {
+    color: orange;
+    font-family: "Arial";
+}
+
+div {
+    align-content: center;
+    height: auto;
+    width: auto;
+    border: 5px dotted violet;
+    padding: 15px;
+    margin: 20px;
+}
+
+#number {
+    color: hotpink;
+    font-family: "Arial";
+}
