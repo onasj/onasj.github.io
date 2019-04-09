@@ -1,0 +1,175 @@
+#maintain {
+    height: 300px;
+/*    overflow: hidden;*/
+}
+
+nav {
+    text-align: right;
+    background-color: mediumslateblue;
+    position: sticky;
+    width: 100%;
+}
+
+.nav-wrapper li{
+    display: inline;
+    padding: 30px;
+}
+
+.nav-wrapper a{
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: royalblue;
+}
+
+#navid{
+    text-align: center;
+    padding: 5px;
+}
+
+#container{
+    background-color:gray;
+    overflow:hidden;
+    height: 400px;
+}
+
+.genre{
+    background-color: dimgray;
+    width:20%;
+    height:100%;
+    color:#fff;
+    float:left;
+    border-style:solid;
+    border-color: darkgray;
+    text-align: center;
+    padding-top: 100px;
+    
+}
+
+.content{
+    background-color: white;
+    width:80%;
+    height:100%;
+    float:left;
+    position:relative;
+    overflow:hidden;
+    border-style:solid;
+    border-color: darkgray;
+}
+
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style: none;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+    overflow-x:auto;
+}
+
+.flex-item{
+    flex: 0 0 auto;
+    background-color: lightgray;
+    width: 200px;
+    height: 300px;
+    margin-top: 50px;
+    color: white;
+    font-size: 35px;
+/*    padding: 5px;*/
+    overflow: hidden;
+
+}
+
+.buttonstyle {
+    background-color: dimgray;
+    color: white;
+    border: 2px solid white;
+}
+
+.buttonstyle:hover {
+    background-color:white;
+    color: dimgray;
+}
+
+.imagea {
+    width: 200px;
+    height: 300px;
+}
+
+#audi {}
+#phot {}
+#vide {}
+
+.maintain {
+    height: 300px;
+    width: 100%;
+    overflow: hidden;
+}
+
+.navlibrary {
+    background-color:mediumpurple;
+    color:white;
+}
+
+.overlay{
+    position:relative;
+}
+
+.text-block{
+    position:absolute;
+    top: 100px;
+    left: 50px;
+    background-color:#80808095;
+    color:white;
+    padding: 20px;
+}
+
+#text-next{
+    position:absolute;
+    top: 100px;
+    left: 50px;
+    background-color:#80808095;
+    color:white;
+    padding: 20px;
+}
+
+.resize{
+    width:200px;
+    height:300px;
+}
+
+@media only screen and (max-width: 798px) {
+    #breakpoint {
+        text-align: center;
+        font-weight: bold;
+        font-size: 17px;
+        margin: 5px;
+    }
+    #limitpoint {
+        text-align: center;
+        margin-bottom: 5px;
+    }
+    #breaklimit {
+        background-color: cadetblue;
+    }
+}
+
+@media only screen and (max-width: 528px) {
+    #breakpoint {
+        text-align: center;
+        font-weight: bold;
+        font-size: 20px;
+        margin: 7px
+    }
+    #limitpoint {
+        text-align: center;
+        margin-bottom: 7px
+    }
+    #breaklimit {
+        background-color: mediumslateblue;
+    }
+    
+}
