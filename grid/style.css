@@ -1,0 +1,61 @@
+#bootgrid {
+    background-color: beige;
+    grid-gap: 10px;
+    padding: 20px;
+
+}
+#bootitem {
+    border: solid;
+    border-color: white;
+    overflow:hidden;
+}
+
+body{
+    background-color: grey;
+}
+
+.i1 { 
+    grid-area: a;
+    border: solid;
+    border-color: white;
+    overflow:hidden; 
+}
+.i2 { 
+    grid-area: b;
+    border: solid;
+    border-color: white;
+    overflow:hidden;
+}
+.i3 { 
+    grid-area: c;
+    border: solid;
+    border-color: white;
+    overflow:hidden;
+}
+.i4 { 
+    grid-area: d;
+    border: solid;
+    border-color: white;
+    overflow:hidden;
+
+}
+.i5 { 
+    grid-area: e;
+    border: solid;
+    border-color: white;
+    overflow:hidden;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-areas:
+    'a a b'
+    'c d e';
+    background-color: beige;
+    padding: 20px;
+    overflow:hidden;
+    width: 80%;
+    margin-left: 9%;
+
+}
+
