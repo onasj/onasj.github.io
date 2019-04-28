@@ -1,0 +1,11 @@
+#hair {
+/*    width: px;*/
+/*    z-index: 1;*/
+    position:absolute;
+}
+
+.center {
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+}
